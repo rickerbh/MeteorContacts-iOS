@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0756008218E13147003A2437 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0756008118E13147003A2437 /* Foundation.framework */; };
+		0756008418E13147003A2437 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0756008318E13147003A2437 /* CoreGraphics.framework */; };
+		0756008618E13147003A2437 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0756008518E13147003A2437 /* UIKit.framework */; };
+		0756008C18E13147003A2437 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0756008A18E13147003A2437 /* InfoPlist.strings */; };
+		0756008E18E13147003A2437 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0756008D18E13147003A2437 /* main.m */; };
+		0756009218E13147003A2437 /* HJRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0756009118E13147003A2437 /* HJRAppDelegate.m */; };
+		0756009418E13147003A2437 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0756009318E13147003A2437 /* Images.xcassets */; };
+		0756009B18E13147003A2437 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0756009A18E13147003A2437 /* XCTest.framework */; };
+		0756009C18E13147003A2437 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0756008118E13147003A2437 /* Foundation.framework */; };
+		0756009D18E13147003A2437 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0756008518E13147003A2437 /* UIKit.framework */; };
+		075600A518E13147003A2437 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 075600A318E13147003A2437 /* InfoPlist.strings */; };
+		075600A718E13147003A2437 /* Meteor_ContactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 075600A618E13147003A2437 /* Meteor_ContactsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0756009E18E13147003A2437 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0756007618E13147003A2437 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0756007D18E13147003A2437;
+			remoteInfo = "Meteor Contacts";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0756007E18E13147003A2437 /* Meteor Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meteor Contacts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0756008118E13147003A2437 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0756008318E13147003A2437 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0756008518E13147003A2437 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0756008918E13147003A2437 /* Meteor Contacts-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Meteor Contacts-Info.plist"; sourceTree = "<group>"; };
+		0756008B18E13147003A2437 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0756008D18E13147003A2437 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0756008F18E13147003A2437 /* Meteor Contacts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Meteor Contacts-Prefix.pch"; sourceTree = "<group>"; };
+		0756009018E13147003A2437 /* HJRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJRAppDelegate.h; sourceTree = "<group>"; };
+		0756009118E13147003A2437 /* HJRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJRAppDelegate.m; sourceTree = "<group>"; };
+		0756009318E13147003A2437 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0756009918E13147003A2437 /* Meteor ContactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meteor ContactsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0756009A18E13147003A2437 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		075600A218E13147003A2437 /* Meteor ContactsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Meteor ContactsTests-Info.plist"; sourceTree = "<group>"; };
+		075600A418E13147003A2437 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		075600A618E13147003A2437 /* Meteor_ContactsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Meteor_ContactsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0756007B18E13147003A2437 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0756008418E13147003A2437 /* CoreGraphics.framework in Frameworks */,
+				0756008618E13147003A2437 /* UIKit.framework in Frameworks */,
+				0756008218E13147003A2437 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0756009618E13147003A2437 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0756009B18E13147003A2437 /* XCTest.framework in Frameworks */,
+				0756009D18E13147003A2437 /* UIKit.framework in Frameworks */,
+				0756009C18E13147003A2437 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0756007518E13147003A2437 = {
+			isa = PBXGroup;
+			children = (
+				0756008718E13147003A2437 /* Meteor Contacts */,
+				075600A018E13147003A2437 /* Meteor ContactsTests */,
+				0756008018E13147003A2437 /* Frameworks */,
+				0756007F18E13147003A2437 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0756007F18E13147003A2437 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0756007E18E13147003A2437 /* Meteor Contacts.app */,
+				0756009918E13147003A2437 /* Meteor ContactsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0756008018E13147003A2437 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0756008118E13147003A2437 /* Foundation.framework */,
+				0756008318E13147003A2437 /* CoreGraphics.framework */,
+				0756008518E13147003A2437 /* UIKit.framework */,
+				0756009A18E13147003A2437 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0756008718E13147003A2437 /* Meteor Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				0756009018E13147003A2437 /* HJRAppDelegate.h */,
+				0756009118E13147003A2437 /* HJRAppDelegate.m */,
+				0756009318E13147003A2437 /* Images.xcassets */,
+				0756008818E13147003A2437 /* Supporting Files */,
+			);
+			path = "Meteor Contacts";
+			sourceTree = "<group>";
+		};
+		0756008818E13147003A2437 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0756008918E13147003A2437 /* Meteor Contacts-Info.plist */,
+				0756008A18E13147003A2437 /* InfoPlist.strings */,
+				0756008D18E13147003A2437 /* main.m */,
+				0756008F18E13147003A2437 /* Meteor Contacts-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		075600A018E13147003A2437 /* Meteor ContactsTests */ = {
+			isa = PBXGroup;
+			children = (
+				075600A618E13147003A2437 /* Meteor_ContactsTests.m */,
+				075600A118E13147003A2437 /* Supporting Files */,
+			);
+			path = "Meteor ContactsTests";
+			sourceTree = "<group>";
+		};
+		075600A118E13147003A2437 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				075600A218E13147003A2437 /* Meteor ContactsTests-Info.plist */,
+				075600A318E13147003A2437 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0756007D18E13147003A2437 /* Meteor Contacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 075600AA18E13148003A2437 /* Build configuration list for PBXNativeTarget "Meteor Contacts" */;
+			buildPhases = (
+				0756007A18E13147003A2437 /* Sources */,
+				0756007B18E13147003A2437 /* Frameworks */,
+				0756007C18E13147003A2437 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Meteor Contacts";
+			productName = "Meteor Contacts";
+			productReference = 0756007E18E13147003A2437 /* Meteor Contacts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0756009818E13147003A2437 /* Meteor ContactsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 075600AD18E13148003A2437 /* Build configuration list for PBXNativeTarget "Meteor ContactsTests" */;
+			buildPhases = (
+				0756009518E13147003A2437 /* Sources */,
+				0756009618E13147003A2437 /* Frameworks */,
+				0756009718E13147003A2437 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0756009F18E13147003A2437 /* PBXTargetDependency */,
+			);
+			name = "Meteor ContactsTests";
+			productName = "Meteor ContactsTests";
+			productReference = 0756009918E13147003A2437 /* Meteor ContactsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0756007618E13147003A2437 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HJR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "happtic consulting";
+				TargetAttributes = {
+					0756009818E13147003A2437 = {
+						TestTargetID = 0756007D18E13147003A2437;
+					};
+				};
+			};
+			buildConfigurationList = 0756007918E13147003A2437 /* Build configuration list for PBXProject "Meteor Contacts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0756007518E13147003A2437;
+			productRefGroup = 0756007F18E13147003A2437 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0756007D18E13147003A2437 /* Meteor Contacts */,
+				0756009818E13147003A2437 /* Meteor ContactsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0756007C18E13147003A2437 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0756008C18E13147003A2437 /* InfoPlist.strings in Resources */,
+				0756009418E13147003A2437 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0756009718E13147003A2437 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075600A518E13147003A2437 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0756007A18E13147003A2437 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0756008E18E13147003A2437 /* main.m in Sources */,
+				0756009218E13147003A2437 /* HJRAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0756009518E13147003A2437 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075600A718E13147003A2437 /* Meteor_ContactsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0756009F18E13147003A2437 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0756007D18E13147003A2437 /* Meteor Contacts */;
+			targetProxy = 0756009E18E13147003A2437 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0756008A18E13147003A2437 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0756008B18E13147003A2437 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		075600A318E13147003A2437 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				075600A418E13147003A2437 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		075600A818E13148003A2437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		075600A918E13148003A2437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		075600AB18E13148003A2437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Meteor Contacts/Meteor Contacts-Prefix.pch";
+				INFOPLIST_FILE = "Meteor Contacts/Meteor Contacts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		075600AC18E13148003A2437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Meteor Contacts/Meteor Contacts-Prefix.pch";
+				INFOPLIST_FILE = "Meteor Contacts/Meteor Contacts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		075600AE18E13148003A2437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Meteor Contacts.app/Meteor Contacts";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Meteor Contacts/Meteor Contacts-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Meteor ContactsTests/Meteor ContactsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		075600AF18E13148003A2437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Meteor Contacts.app/Meteor Contacts";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Meteor Contacts/Meteor Contacts-Prefix.pch";
+				INFOPLIST_FILE = "Meteor ContactsTests/Meteor ContactsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0756007918E13147003A2437 /* Build configuration list for PBXProject "Meteor Contacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075600A818E13148003A2437 /* Debug */,
+				075600A918E13148003A2437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		075600AA18E13148003A2437 /* Build configuration list for PBXNativeTarget "Meteor Contacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075600AB18E13148003A2437 /* Debug */,
+				075600AC18E13148003A2437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		075600AD18E13148003A2437 /* Build configuration list for PBXNativeTarget "Meteor ContactsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075600AE18E13148003A2437 /* Debug */,
+				075600AF18E13148003A2437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0756007618E13147003A2437 /* Project object */;
+}
