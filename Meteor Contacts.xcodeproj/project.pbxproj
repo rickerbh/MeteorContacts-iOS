@@ -19,6 +19,11 @@
 		0756009D18E13147003A2437 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0756008518E13147003A2437 /* UIKit.framework */; };
 		075600A518E13147003A2437 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 075600A318E13147003A2437 /* InfoPlist.strings */; };
 		075600A718E13147003A2437 /* Meteor_ContactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 075600A618E13147003A2437 /* Meteor_ContactsTests.m */; };
+		075600B118E13265003A2437 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075600B018E13265003A2437 /* Storyboard.storyboard */; };
+		075600B418E1382B003A2437 /* HJRContactCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 075600B318E1382B003A2437 /* HJRContactCell.m */; };
+		075600B718E138FA003A2437 /* HJRLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 075600B618E138FA003A2437 /* HJRLoginViewController.m */; };
+		075600BA18E13CBA003A2437 /* HJRContactListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 075600B918E13CBA003A2437 /* HJRContactListTableViewController.m */; };
+		3F07DCD7E93B44CEAE11F6E1 /* libPods-Meteor Contacts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE3AD1E07A2843349B228C8E /* libPods-Meteor Contacts.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +53,15 @@
 		075600A218E13147003A2437 /* Meteor ContactsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Meteor ContactsTests-Info.plist"; sourceTree = "<group>"; };
 		075600A418E13147003A2437 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		075600A618E13147003A2437 /* Meteor_ContactsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Meteor_ContactsTests.m; sourceTree = "<group>"; };
+		075600B018E13265003A2437 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		075600B218E1382B003A2437 /* HJRContactCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJRContactCell.h; sourceTree = "<group>"; };
+		075600B318E1382B003A2437 /* HJRContactCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJRContactCell.m; sourceTree = "<group>"; };
+		075600B518E138FA003A2437 /* HJRLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJRLoginViewController.h; sourceTree = "<group>"; };
+		075600B618E138FA003A2437 /* HJRLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJRLoginViewController.m; sourceTree = "<group>"; };
+		075600B818E13CBA003A2437 /* HJRContactListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJRContactListTableViewController.h; sourceTree = "<group>"; };
+		075600B918E13CBA003A2437 /* HJRContactListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJRContactListTableViewController.m; sourceTree = "<group>"; };
+		BAD1EDD164A44BCF963F035D /* Pods-Meteor Contacts.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meteor Contacts.xcconfig"; path = "Pods/Pods-Meteor Contacts.xcconfig"; sourceTree = "<group>"; };
+		BE3AD1E07A2843349B228C8E /* libPods-Meteor Contacts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Meteor Contacts.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 				0756008418E13147003A2437 /* CoreGraphics.framework in Frameworks */,
 				0756008618E13147003A2437 /* UIKit.framework in Frameworks */,
 				0756008218E13147003A2437 /* Foundation.framework in Frameworks */,
+				3F07DCD7E93B44CEAE11F6E1 /* libPods-Meteor Contacts.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,7 @@
 				075600A018E13147003A2437 /* Meteor ContactsTests */,
 				0756008018E13147003A2437 /* Frameworks */,
 				0756007F18E13147003A2437 /* Products */,
+				BAD1EDD164A44BCF963F035D /* Pods-Meteor Contacts.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +116,7 @@
 				0756008318E13147003A2437 /* CoreGraphics.framework */,
 				0756008518E13147003A2437 /* UIKit.framework */,
 				0756009A18E13147003A2437 /* XCTest.framework */,
+				BE3AD1E07A2843349B228C8E /* libPods-Meteor Contacts.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,6 +128,13 @@
 				0756009118E13147003A2437 /* HJRAppDelegate.m */,
 				0756009318E13147003A2437 /* Images.xcassets */,
 				0756008818E13147003A2437 /* Supporting Files */,
+				075600B018E13265003A2437 /* Storyboard.storyboard */,
+				075600B518E138FA003A2437 /* HJRLoginViewController.h */,
+				075600B618E138FA003A2437 /* HJRLoginViewController.m */,
+				075600B818E13CBA003A2437 /* HJRContactListTableViewController.h */,
+				075600B918E13CBA003A2437 /* HJRContactListTableViewController.m */,
+				075600B218E1382B003A2437 /* HJRContactCell.h */,
+				075600B318E1382B003A2437 /* HJRContactCell.m */,
 			);
 			path = "Meteor Contacts";
 			sourceTree = "<group>";
@@ -151,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 075600AA18E13148003A2437 /* Build configuration list for PBXNativeTarget "Meteor Contacts" */;
 			buildPhases = (
+				894DDE2764154849A44D5311 /* Check Pods Manifest.lock */,
 				0756007A18E13147003A2437 /* Sources */,
 				0756007B18E13147003A2437 /* Frameworks */,
 				0756007C18E13147003A2437 /* Resources */,
+				9A373D90C45C46C38AC6B23D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,6 +248,7 @@
 			files = (
 				0756008C18E13147003A2437 /* InfoPlist.strings in Resources */,
 				0756009418E13147003A2437 /* Images.xcassets in Resources */,
+				075600B118E13265003A2437 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +262,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		894DDE2764154849A44D5311 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9A373D90C45C46C38AC6B23D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Meteor Contacts-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0756007A18E13147003A2437 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -242,6 +302,9 @@
 			files = (
 				0756008E18E13147003A2437 /* main.m in Sources */,
 				0756009218E13147003A2437 /* HJRAppDelegate.m in Sources */,
+				075600B418E1382B003A2437 /* HJRContactCell.m in Sources */,
+				075600B718E138FA003A2437 /* HJRLoginViewController.m in Sources */,
+				075600BA18E13CBA003A2437 /* HJRContactListTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +418,7 @@
 		};
 		075600AB18E13148003A2437 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAD1EDD164A44BCF963F035D /* Pods-Meteor Contacts.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -368,6 +432,7 @@
 		};
 		075600AC18E13148003A2437 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAD1EDD164A44BCF963F035D /* Pods-Meteor Contacts.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -438,6 +503,7 @@
 				075600AC18E13148003A2437 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		075600AD18E13148003A2437 /* Build configuration list for PBXNativeTarget "Meteor ContactsTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +512,7 @@
 				075600AF18E13148003A2437 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
